@@ -1,6 +1,6 @@
 # Automação para obtenção de dados GNSS de Estações da RBMC
 
-Este repositório contém um script Python que automatiza o processo de download, descompactação, conversão e filtragem de dados GNSS RINEX para aplicações em refletometria (GNSS-IR) com estações da Rede Brasileira de Monitoramento Contínuo dos Sistemas GNSS (RBMC/IBGE).
+Este repositório contém um script Python que automatiza o processo de download, descompactação, conversão e filtragem de dados GNSS RINEX com estações da Rede Brasileira de Monitoramento Contínuo dos Sistemas GNSS (RBMC/IBGE).
 
 ### Requisitos
 Este script foi desenvolvido para automatizar o acesso a dados gnss no formato RINEX.
@@ -51,7 +51,7 @@ Para executar este script, você precisará de:
 	- Será gerada uma saída com mensagens de status para cada etapa do processo.
 	
 Estrutura do Projeto
-├── do_inputdatarbmc.py         # Script principal para download e conversão de dados GNSS
+├── gnssdatarbmc.py             # Script principal para download e conversão de dados GNSS
 ├── README.md                   # Documentação do projeto
 └── dados/                      # Diretório para salvar os dados convertidos
 
